@@ -6,6 +6,7 @@ import App from './App.jsx'
 import About from './pages/About.jsx'
 import Achievement from './pages/Achievement.jsx'
 import ErrorPage from './pages/404.jsx'
+import Project from './pages/Project.jsx'
 
 const router = createBrowserRouter([
 	{
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
 	{
 		path: '/achievement',
 		element: <Achievement />,
+	},
+	{
+		path: '/projects',
+		element: <Project />,
 	},
 	{
 		path: '*',

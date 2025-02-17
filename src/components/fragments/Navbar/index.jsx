@@ -55,7 +55,7 @@ const Navbar = () => {
 			<header
 				className={`px-48 py-5 fixed w-full max-[520px]:px-4 ${
 					darkTheme ? 'bg-zinc-950 text-white' : 'bg-white text-black'
-				} bg-opacity-80`}
+				} bg-opacity-80 z-10`}
 			>
 				<nav className="flex justify-between flex-row-reverse items-center max-[520px]:flex-col max-[520px]:items-start">
 					<div className="flex justify-between items-center max-[520px]:w-full">

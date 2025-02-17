@@ -16,12 +16,12 @@ const About = () => {
 
 	return (
 		<MainLayout>
-			<section className="px-48 py-32 flex justify-between items-center gap-12 max-[520px]:px-4 max-[520px]:flex-col max-[520px]:w-full">
+			<section className="px-48 py-24 flex justify-between items-center gap-12 max-[520px]:px-4 max-[520px]:flex-col max-[520px]:w-full">
 				<div>
 					<img
 						src="/assets/images/self.png"
 						alt=""
-						className="w-[30rem]  border-2 rounded-xl"
+						className="w-[45rem] rounded-xl"
 					/>
 				</div>
 				<div className="my-auto flex flex-col gap-2 w-[60rem] max-[520px]:w-full">
@@ -76,7 +76,7 @@ const About = () => {
 					</div>
 					<div className="grid grid-cols-3 w-full max-w-6xl max-[520px]:w-full items-center">
 						<div className="w-1 h-[20rem] bg-primary mx-auto rounded-t-full min-[520px]:hidden"></div>
-						<div className="text-end max-[520px]:text-start">
+						<div className="text-end max-[520px]:text-start max-[520px]:w-[15rem]">
 							<h4 className="text-primary font-semibold text-lg">
 								2017 - 2020
 							</h4>
