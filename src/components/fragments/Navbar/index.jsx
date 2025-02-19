@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useNavigate, useLocation } from 'react-router-dom'
 
 const Navbar = () => {
 	const [moonHover, setMoonHover] = useState(false)
@@ -9,6 +9,7 @@ const Navbar = () => {
 	const [redirectUrl, setRedirectUrl] = useState(null)
 	const [menuOpen, setMenuOpen] = useState(false)
 	const navigate = useNavigate()
+	const location = useLocation()
 
 	useEffect(() => {
 		if (showLoadingText && redirectUrl) {
@@ -107,7 +108,9 @@ const Navbar = () => {
 							<Link
 								to="#"
 								onClick={() => handleHrefClick('/')}
-								className="hover:text-primary cursor-pointer"
+								className={`hover:text-primary cursor-pointer ${
+									location.pathname == '/' ? 'text-primary' : ''
+								}`}
 							>
 								Home
 							</Link>
@@ -116,7 +119,9 @@ const Navbar = () => {
 							<Link
 								to="#"
 								onClick={() => handleHrefClick('/achievement')}
-								className="hover:text-primary cursor-pointer"
+								className={`hover:text-primary cursor-pointer ${
+									location.pathname == '/achievement' ? 'text-primary' : ''
+								}`}
 							>
 								Achievement
 							</Link>
@@ -125,7 +130,9 @@ const Navbar = () => {
 							<Link
 								to="#"
 								onClick={() => handleHrefClick('/projects')}
-								className="hover:text-primary cursor-pointer"
+								className={`hover:text-primary cursor-pointer ${
+									location.pathname == '/projects' ? 'text-primary' : ''
+								}`}
 							>
 								Projects
 							</Link>
@@ -134,7 +141,9 @@ const Navbar = () => {
 							<Link
 								to="#"
 								onClick={() => handleHrefClick('/about')}
-								className="hover:text-primary cursor-pointer"
+								className={`hover:text-primary cursor-pointer ${
+									location.pathname == '/about' ? 'text-primary' : ''
+								}`}
 							>
 								About
 							</Link>

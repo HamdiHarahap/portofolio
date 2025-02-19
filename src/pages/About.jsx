@@ -44,7 +44,8 @@ const About = () => {
 					Journey
 				</h1>
 				<div className="flex flex-col items-center w-[60rem] max-[520px]:w-full">
-					<div className="grid grid-cols-3 w-full max-w-6xl max-[520px]:w-full items-center">
+					<div className="grid grid-cols-3 w-full max-w-6xl max-[520px]:w-full items-center relative">
+						<div className="bg-primary w-8 h-8 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] max-[520px]:hidden"></div>
 						<div className="w-1 h-[20rem] bg-primary mx-auto rounded-t-full min-[520px]:hidden"></div>
 						<div className="text-end max-[520px]:text-start max-[520px]:w-[15rem]">
 							<h4 className="text-primary font-semibold text-lg">
@@ -60,7 +61,8 @@ const About = () => {
 						<div className="w-1 h-[20rem] bg-primary mx-auto rounded-t-full max-[520px]:hidden"></div>
 						<div className="max-[520px]:hidden"></div>
 					</div>
-					<div className="grid grid-cols-3 w-full max-w-6xl max-[520px]:w-full items-center">
+					<div className="grid grid-cols-3 w-full max-w-6xl max-[520px]:w-full items-center relative">
+						<div className="bg-primary w-8 h-8 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] max-[520px]:hidden"></div>
 						<div className="w-1 h-[20rem] bg-primary mx-auto rounded-t-full min-[520px]:hidden"></div>
 						<div className="max-[520px]:hidden"></div>
 						<div className="w-1 h-[20rem] bg-primary mx-auto max-[520px]:hidden"></div>
@@ -74,7 +76,8 @@ const About = () => {
 							</p>
 						</div>
 					</div>
-					<div className="grid grid-cols-3 w-full max-w-6xl max-[520px]:w-full items-center">
+					<div className="grid grid-cols-3 w-full max-w-6xl max-[520px]:w-full items-center relative">
+						<div className="bg-primary w-8 h-8 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]  max-[520px]:hidden"></div>
 						<div className="w-1 h-[20rem] bg-primary mx-auto rounded-t-full min-[520px]:hidden"></div>
 						<div className="text-end max-[520px]:text-start max-[520px]:w-[15rem]">
 							<h4 className="text-primary font-semibold text-lg">
