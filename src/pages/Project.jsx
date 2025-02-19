@@ -87,13 +87,13 @@ const Project = () => {
 		<MainLayout>
 			<section className="py-32 px-48 flex flex-col items-center gap-16 max-[520px]:px-4">
 				<h1 className="font-bold text-3xl">
-					My <span className="text-primary">Project</span>
+					My <span className="text-primary">Projects</span>
 				</h1>
 				<div className="grid grid-cols-3 gap-6 text-black max-[520px]:grid-cols-1">
 					{projects.map((project, index) => (
 						<div
 							key={index}
-							className="relative rounded-md flex flex-col border p-3 gap-3 bg-gray-50"
+							className="relative rounded-md flex flex-col border p-3 gap-3 bg-sky-50"
 						>
 							<h2 className="font-bold text-lg">{project.name}</h2>
 							<p>{project.desc}</p>
