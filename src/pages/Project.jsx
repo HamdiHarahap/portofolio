@@ -81,6 +81,17 @@ const Project = () => {
 			image: '/assets/images/qrgen.png',
 			url: 'https://github.com/HamdiHarahap/qr-generator',
 		},
+		{
+			name: 'Sistem Perpustakaan',
+			desc: 'A web-based library management system for managing books, members, and borrowing transactions efficiently.',
+			tech: [
+				'/assets/logos/laravel.svg',
+				'/assets/logos/tailwind.svg',
+				'/assets/logos/javascript.svg',
+			],
+			image: '/assets/images/perpus.png',
+			url: 'https://github.com/HamdiHarahap/sistem-perpustakaan.git',
+		},
 	]
 
 	return (
