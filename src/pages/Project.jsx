@@ -39,6 +39,13 @@ const Project = () => {
 			url: 'https://github.com/HamdiHarahap/cek-khodam',
 		},
 		{
+			name: 'Smart Style',
+			desc: 'A web-based expert system for recommending suitable hairstyles based on user preferences.',
+			tech: ['/assets/logos/laravel.svg', '/assets/logos/tailwind.svg'],
+			image: '/assets/images/smartstyle.png',
+			url: 'https://github.com/HamdiHarahap/smart-style',
+		},
+		{
 			name: 'Note App React',
 			desc: 'A simple note-taking app built using React and CSS.',
 			tech: ['/assets/logos/react.svg', '/assets/logos/css.svg'],
@@ -58,6 +65,13 @@ const Project = () => {
 			tech: ['/assets/logos/node.svg', '/assets/logos/tailwind.svg'],
 			image: '/assets/images/notes.png',
 			url: 'https://github.com/HamdiHarahap/notes-app',
+		},
+		{
+			name: 'Distro Shop',
+			desc: 'A web-based e-commerce platform for showcasing and selling clothing products online.',
+			tech: ['/assets/logos/laravel.svg', '/assets/logos/tailwind.svg'],
+			image: '/assets/images/distroshop.png',
+			url: 'https://github.com/HamdiHarahap/distro-shop',
 		},
 		{
 			name: 'Fruit Slots',
